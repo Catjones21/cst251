@@ -1,0 +1,23 @@
+body {
+  margin: 200px;
+  background-color: #B7E064;
+}
+
+h1 {
+  font-size: 100px;
+  font-family: georgia, serif;
+  font-color: #000000;
+}
+
+#content {
+  margin: 20px;
+  padding: 20px;
+  background-color: #FFFFFF;
+  opacity: 50%;
+  width: 200px;
+  height: 150px;
+}
+
+#image{
+  float: right;
+}
