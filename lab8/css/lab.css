@@ -48,11 +48,14 @@ text-align: center;
 }
 
 img:hover{
-  size: 150%;
+  width: 800px;
+  max-width: 800px;
 
 }
 
 
 #poppy {
   float: right;
+  transition: all 1s;
+  /*transition: 0.5s;*/
 }
