@@ -39,8 +39,12 @@ p {
 }
 
 #bridge {
-  height: 200px;
   margin: 80px;
+}
+
+div#bridge: hover {
+  width: 48%;
+
 }
 
 
