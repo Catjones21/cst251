@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
+
+#content {
+  font-family: 'Montserrat', sans-serif;
+  line-height: 2em;
+  width: 610px;
+  background-color: #9CC97B;
+  opacity: 90%;
+  border-width: medium;
+  border-color: red;
+  border-radius: 30px;
+  margin: 300px;
+  padding:30px;
+
+}
+
+img {
+  width: 400px;
+  padding: 50px;
+
+}
+
+h1 {
+  font-family: 'Libre Baskerville', serif;
+  font-size: 50px;
+  line-height: normal;
+
+}
+
+#sidebar {
+  display: inline-block;
+  width: 30%;
+  min-width: 300px;
+  position: relative;
+  left: 250px;
+  border: 1px solid red;
+  border-radius: 20px;
+  padding: 20px;
+
+}
+
+#link {
+  position: sticky;
+  top: 10px;
+}
+
+
+#links {
+  position: sticky;
+  bottom: 10px;
+
+}
