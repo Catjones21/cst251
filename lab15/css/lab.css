@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@200&display=swap');
+
+#content{
+  background-image: linear-gradient(to bottom right,#EDC1C1, red);
+  font-family: 'Crimson Pro', serif;
+  line-height: 2em;
+  width: 100vw;
+  height: 300vh;
+  z-index: -20;
+}
+
+#title{
+  margin-left: 600px;
+  margin-top: 70px;
+  border-radius: 10px;
+  background-color: #FFFFFF;
+  width: 700px;
+  height: 100px;
+
+}
+
+h1 {
+  position: relative;
+  text-decoration: overline;
+  top: 60px;
+  left:60px;
+  width: 100%;
+  font-size: 90px;
+  text-shadow: 0 3px 3px red;
+}
+
+#challenge {
+  margin-left: 300px;
+  margin-top: 100px;
+  border-radius: 10px;
+  background-color: #FFFFFF;
+  width: 400px;
+  height: 80px;
+}
+
+h2 {
+  position: relative;
+  text-decoration: overline;
+  top: 50px;
+  left:60px;
+  width: 100%;
+  font-size: 60px;
+  text-shadow: 0 3px 3px red;
+}
+
+#c-text {
+  position: relative;
+  margin-left: 100px;
+  margin-top: 20px;
+  background-color: #FFFFFF;
+  border-radius: 10px;
+  width: 700px;
+  padding-left: 20px;
+}
+
+
+#problems {
+margin-left: 400px;
+margin-top: 50px;
+border-radius: 10px;
+background-color: #FFFFFF;
+width: 400px;
+height:80px;
+}
+
+#p-text {
+  position: relative;
+  margin-left: 100px;
+  margin-top: 20px;
+  background-color: #FFFFFF;
+  border-radius: 10px;
+  width: 700px;
+  padding-left: 20px;
+}
+
+#results {
+  margin-left: 500px;
+  margin-top: 50px;
+  border-radius: 10px;
+  background-color: #FFFFFF;
+  width: 400px;
+  height:80px;
+  }
+
+
+#r-text {
+  position: relative;
+  margin-left: 100px;
+  margin-top: 20px;
+  background-color: #FFFFFF;
+  border-radius: 10px;
+  width: 700px;
+  padding-left: 20px;
+}
+
+
+
+#rose {
+  position: relative;
+  margin-left: 800px;
+  margin-top: auto;
+  width: 250px;
+
+
+}
+
+#rose img {
+  width: 300px;
+  height: 400px;
+  object-fit: cover;
+  border-radius: 10px;
+  box-shadow: 0px 3px 5px red;
+  filter: blur(3px);
+
+
+}
+
+#rose img:hover {
+
+  filter: blur(0);
+  width: 400px;
+  transition-duration: 3s;
+  transform: rotate(180deg);
+}
+
+
+#home {
+  position: relative;
+  margin-left: 600px;
+  margin-top: 20px;
+  background-color: #FFFFFF;
+  border-radius: 10px;
+  width: 60px;
+  padding-left: 20px;
+}

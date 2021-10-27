@@ -1,0 +1,33 @@
+#container {
+  background-color: #E3BCC9;
+  width: 100vw;
+  height: 100vw;
+  position: relative;
+  /* behind everything */
+  z-index: -100;
+}
+
+.title {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  /* pushed forward */
+  z-index: 10;
+}
+
+.image {
+  position: absolute;
+  top: 0; left: 0;
+  width: 100%;
+}
+
+.image img{
+  /* centering trick */
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 100%;
+  /* move behind text */
+  z-index: -10;
+}
