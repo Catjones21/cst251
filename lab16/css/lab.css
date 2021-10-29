@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat+Subrayada:wght@700&family=Montserrat:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@200&display=swap');
+
+#content {
+  background-image: url(https://purepng.com/public/uploads/large/purepng.com-moonmoonskyrealisticnightblack-and-white-591521584248xjtz1.png),linear-gradient(#FFFFFF, #84ADC6);
+  background-position: right top;
+  background-size: 80px, cover;
+  background-repeat: no-repeat;
+  font-family: 'Bebas Neue', cursive;
+  position: relative;
+  width: 700px;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 30px;
+
+}
+
+p {
+  font-family: 'Crimson Pro', serif;
+}
+
+h1 {
+  font-size: 70px;
+  text-align: center;
+  text-shadow: 1px orange;
+
+}
+
+
+#challenge {
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+  width: 500px;
+  height: auto;
+  background-image: linear-gradient(#FFFFFF, #FFFFFF);
+  border-top-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+  border-color: #FFFFFF;
+  column-count: 3;
+}
+
+#challenge:hover {
+  width: 600px;
+  background-image: linear-gradient(#A5736B, #8C949C);
+  transition-duration: 3s;
+}
+
+#home {
+  text-align: center;
+  position: relative;
+  width: 100px;
+  height: auto;
+  padding: 10px;
+  margin-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #FFFFFF;
+  border-top-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+
+}
+
+#home:hover {
+  width: 500px;
+  background-color: #D53029;
+  transition-duration: 4s;
+
+}
+
+#road {
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0px;
+  width: 760px;
+  height: auto;
+  padding: 0;
+  border-width: 0;
+  animation-name: example;
+  animation-duration: 6s;
+  animation-delay: 2s;
+  animation-iteration-count: infinite;
+
+
+}
+
+@keyframes example {
+  0% {opacity: 100%}
+  25% {opacity:75%}
+  50% {opacity: 50%}
+  75% {opacity: 75%}
+  100% {opacity:100%}
+
+
+}
+
+img {
+  width: 760px;
+  height: auto;
+}

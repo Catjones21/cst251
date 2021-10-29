@@ -1,26 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Subrayada:wght@700&family=Montserrat:wght@700&display=swap');
+
 #container {
-  background-color: #E3BCC9;
+  background-color: ##EBD2E0;
   width: 100vw;
   height: 100vw;
   position: relative;
   /* behind everything */
   z-index: -100;
+
 }
 
-.title {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  /* pushed forward */
-  z-index: 10;
-}
 
-.image {
-  position: absolute;
-  top: 0; left: 0;
-  width: 100%;
-}
 
 .image img{
   /* centering trick */
