@@ -1,0 +1,52 @@
+header {
+  width: 400px;
+  float: right;
+  min-width: 40%;
+  max-width: 60%;
+  margin: 10px auto;
+
+}
+
+
+.flex {
+  clear: right;
+  margin: 10px auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+
+}
+
+
+
+nav {
+  width: 100vw;
+  min-width: 50%;
+  max-width: none;
+  margin: 10px auto;
+
+
+}
+
+aside {
+  width: 150px;
+  min-width: 20%;
+  max-width:30%;
+  height: auto;
+  margin: 10px auto;
+}
+
+main {
+  width: 500px;
+  min-width: 30%;
+  max-width: 70%;
+  margin: 10px auto;
+  padding: 10px;
+}
+
+footer {
+  width: 200px;
+  margin: 10px auto;
+  min-width: 10%;
+  max-width: 30%;
+}

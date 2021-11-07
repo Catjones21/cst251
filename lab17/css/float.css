@@ -1,0 +1,41 @@
+body {
+  margin: 10% auto;
+  
+}
+
+header {
+  float: right;
+  width:30%;
+  margin: 10px;
+
+}
+
+nav {
+  float: left;
+  clear: left;
+  width: 100vw;
+  margin: 10px;
+}
+
+aside {
+  width: 30%;
+  float: left;
+  clear: right;
+  margin: 10px;
+  padding: 5%;
+}
+
+main {
+  width: 40%;
+  float: right;
+  clear: right;
+  margin: 10px;
+  padding: 5%;
+
+}
+
+footer {
+  width: 20%;
+  float: left;
+  clear: right;
+}

@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@200&display=swap');
+
+header {
+  font-family: 'Crimson Pro', serif;
+  text-align: center;
+  width: 75%;
+  height:30%;
+  border-radius: 10px;
+  margin: auto;
+  background-color: #E8c62f;
+
+}
+
+nav {
+  font-family: 'Crimson Pro', serif;
+  border-radius: 10px;
+  margin: auto;
+  background-color: #E8c62f;
+  width: 60%;
+  height: auto;
+  padding: 10px;
+  text-align: center;
+  word-spacing: 20px;
+  text-shadow: 20%;
+  color: #FFFFFF;
+}
+
+main {
+  font-family: 'Crimson Pro', serif;
+  background-color: #E8c62f;
+  border-radius: 10px;
+}
+
+aside {
+  background-color: #E8c62f;
+  border-radius: 10px;
+  padding: 10px;
+
+}
+
+footer {
+  background-color: #E8c62f;
+  border-radius: 10px;
+  padding: 10px;
+  width: 700px;
+}
